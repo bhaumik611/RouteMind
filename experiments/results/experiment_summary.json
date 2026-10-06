@@ -1,0 +1,127 @@
+{
+  "random": {
+    "strategy": "random",
+    "total_requests": 90,
+    "average_reward": 0.5419,
+    "mean_latency_ms": 107.61,
+    "p95_latency_ms": 201.82,
+    "success_rate_pct": 100.0,
+    "total_tokens": 3150,
+    "model_distribution": {
+      "gemini/gemini-2.0-flash-exp": 5,
+      "openrouter/meta-llama/llama-3-8b-instruct:free": 6,
+      "openrouter/meta-llama/llama-3.2-3b-instruct:free": 9,
+      "openrouter/deepseek/deepseek-r1-distill-llama-70b:free": 11,
+      "openrouter/qwen/qwen-2-7b-instruct:free": 4,
+      "openrouter/google/gemma-2-9b-it:free": 8,
+      "openrouter/microsoft/phi-3-mini-128k-instruct:free": 6,
+      "openrouter/meta-llama/llama-3.2-1b-instruct:free": 3,
+      "gemini/gemini-1.5-flash": 7,
+      "local_mock/mock-coding-model": 8,
+      "local_mock/mock-fast-model": 3,
+      "openrouter/mistralai/mistral-7b-instruct:free": 4,
+      "gemini/gemini-1.5-pro": 4,
+      "local_mock/mock-free-model": 4,
+      "gemini/gemini-1.5-flash-8b": 3,
+      "openrouter/meta-llama/llama-3.1-8b-instruct:free": 5
+    },
+    "empirical_regret": 0.0063
+  },
+  "round_robin": {
+    "strategy": "round_robin",
+    "total_requests": 90,
+    "average_reward": 0.548,
+    "mean_latency_ms": 51.73,
+    "p95_latency_ms": 52.3,
+    "success_rate_pct": 100.0,
+    "total_tokens": 3150,
+    "model_distribution": {
+      "local_mock/mock-free-model": 6,
+      "local_mock/mock-fast-model": 6,
+      "local_mock/mock-coding-model": 6,
+      "openrouter/deepseek/deepseek-r1-distill-llama-70b:free": 6,
+      "openrouter/mistralai/mistral-7b-instruct:free": 6,
+      "openrouter/meta-llama/llama-3-8b-instruct:free": 6,
+      "openrouter/microsoft/phi-3-mini-128k-instruct:free": 6,
+      "openrouter/qwen/qwen-2-7b-instruct:free": 6,
+      "openrouter/meta-llama/llama-3.2-1b-instruct:free": 6,
+      "openrouter/google/gemma-2-9b-it:free": 6,
+      "openrouter/meta-llama/llama-3.2-3b-instruct:free": 5,
+      "openrouter/meta-llama/llama-3.1-8b-instruct:free": 5,
+      "gemini/gemini-1.5-flash": 5,
+      "gemini/gemini-1.5-pro": 5,
+      "gemini/gemini-1.5-flash-8b": 5,
+      "gemini/gemini-2.0-flash-exp": 5
+    },
+    "empirical_regret": 0.0002
+  },
+  "cheapest": {
+    "strategy": "cheapest",
+    "total_requests": 90,
+    "average_reward": 0.5481,
+    "mean_latency_ms": 51.58,
+    "p95_latency_ms": 52.33,
+    "success_rate_pct": 100.0,
+    "total_tokens": 3150,
+    "model_distribution": {
+      "local_mock/mock-fast-model": 90
+    },
+    "empirical_regret": 0.0001
+  },
+  "latency_first": {
+    "strategy": "latency_first",
+    "total_requests": 90,
+    "average_reward": 0.5482,
+    "mean_latency_ms": 51.52,
+    "p95_latency_ms": 52.16,
+    "success_rate_pct": 100.0,
+    "total_tokens": 3150,
+    "model_distribution": {
+      "local_mock/mock-fast-model": 90
+    },
+    "empirical_regret": 0.0
+  },
+  "quality_first": {
+    "strategy": "quality_first",
+    "total_requests": 90,
+    "average_reward": 0.548,
+    "mean_latency_ms": 51.79,
+    "p95_latency_ms": 52.3,
+    "success_rate_pct": 100.0,
+    "total_tokens": 3150,
+    "model_distribution": {
+      "gemini/gemini-1.5-pro": 90
+    },
+    "empirical_regret": 0.0002
+  },
+  "rule_based": {
+    "strategy": "rule_based",
+    "total_requests": 90,
+    "average_reward": 0.548,
+    "mean_latency_ms": 51.69,
+    "p95_latency_ms": 52.48,
+    "success_rate_pct": 100.0,
+    "total_tokens": 3150,
+    "model_distribution": {
+      "gemini/gemini-1.5-pro": 50,
+      "local_mock/mock-fast-model": 40
+    },
+    "empirical_regret": 0.0002
+  },
+  "bandit": {
+    "strategy": "bandit",
+    "total_requests": 90,
+    "average_reward": 0.5453,
+    "mean_latency_ms": 68.03,
+    "p95_latency_ms": 56.86,
+    "success_rate_pct": 100.0,
+    "total_tokens": 3150,
+    "model_distribution": {
+      "local_mock/mock-free-model": 6,
+      "local_mock/mock-fast-model": 5,
+      "local_mock/mock-coding-model": 5,
+      "openrouter/deepseek/deepseek-r1-distill-llama-70b:free": 74
+    },
+    "empirical_regret": 0.0029
+  }
+}

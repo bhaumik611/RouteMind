@@ -1,0 +1,65 @@
+[
+  {
+    "id": "code-001",
+    "category": "coding",
+    "prompt": "Write a Python function `lru_cache(capacity)` implementing an LRU cache with O(1) get and put operations using OrderedDict.",
+    "expected_behavior": "Valid Python code containing class or function definition with comments",
+    "difficulty": "medium"
+  },
+  {
+    "id": "code-002",
+    "category": "coding",
+    "prompt": "Implement a Dijkstra shortest path algorithm in TypeScript for a directed weighted graph.",
+    "expected_behavior": "TypeScript code with proper type definitions and priority queue logic",
+    "difficulty": "hard"
+  },
+  {
+    "id": "code-003",
+    "category": "coding",
+    "prompt": "Write an SQL query to find the 2nd highest salary from an Employee table without using LIMIT.",
+    "expected_behavior": "SQL query with subquery or MAX aggregate",
+    "difficulty": "easy"
+  },
+  {
+    "id": "reason-001",
+    "category": "reasoning",
+    "prompt": "Step-by-step explain the Byzantine Generals Problem and prove why consensus requires > 3m + 1 generals in the presence of m traitors.",
+    "expected_behavior": "Clear mathematical and logical deduction with step-by-step breakdown",
+    "difficulty": "hard"
+  },
+  {
+    "id": "reason-002",
+    "category": "reasoning",
+    "prompt": "If a train travels 120 miles in 2 hours, and another travels 180 miles in 3 hours, compare their average speeds and determine when they would meet if starting 300 miles apart.",
+    "expected_behavior": "Analytical arithmetic proof with clear intermediate steps",
+    "difficulty": "medium"
+  },
+  {
+    "id": "summary-001",
+    "category": "summarization",
+    "prompt": "Summarize the key differences between Optimistic Concurrency Control (OCC) and Two-Phase Locking (2PL) in database transaction management in 3 concise bullet points.",
+    "expected_behavior": "3 bullet points focusing on lock contention, conflict detection, and abort overhead",
+    "difficulty": "medium"
+  },
+  {
+    "id": "extract-001",
+    "category": "extraction",
+    "prompt": "Extract all server hostnames, port numbers, and status codes from the following log text into a structured JSON array:\n'2026-10-06 host=api-gw-1.us-east.net port=8443 status=200; host=auth-srv-2.eu-west.net port=443 status=401'",
+    "expected_behavior": "Valid JSON array of objects with keys hostname, port, status",
+    "difficulty": "easy"
+  },
+  {
+    "id": "general-001",
+    "category": "general",
+    "prompt": "What is the primary difference between synchronous and asynchronous I/O in event-driven systems like Node.js and Python Asyncio?",
+    "expected_behavior": "Clear comparative conceptual overview",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fast-001",
+    "category": "general",
+    "prompt": "In one short sentence, define what a distributed hash table (DHT) is.",
+    "expected_behavior": "Single concise sentence definition",
+    "difficulty": "easy"
+  }
+]
